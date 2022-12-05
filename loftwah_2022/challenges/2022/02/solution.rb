@@ -9,7 +9,7 @@ input.each_line do |line|
         score += 3
         puts "Draw 3 points, the current score is #{score}"
     end
-    if line[0] == "A" && line[2] == "Y"
+    if line[0] == "A" && line[2] == "Z"
         score += 0
         puts "Lose 0 points, the current score is #{score}"
     end
