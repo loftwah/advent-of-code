@@ -6,8 +6,8 @@ input.each_line do |line|
         puts "Win 8 points, the current score is #{score}"
     end
     if line[0] == "A" && line[2] == "X"
-        score += 1
-        puts "Draw 1 points, the current score is #{score}"
+        score += 4
+        puts "Draw 4 points, the current score is #{score}"
     end
     if line[0] == "A" && line[2] == "Z"
         score += 3
@@ -18,8 +18,8 @@ input.each_line do |line|
         puts "Win 9 points, the current score is #{score}"
     end
     if line[0] == "B" && line[2] == "Y"
-        score += 2
-        puts "Draw 2 points, the current score is #{score}"
+        score += 5
+        puts "Draw 5 points, the current score is #{score}"
     end
     if line[0] == "B" && line[2] == "X"
         score += 1
@@ -30,8 +30,8 @@ input.each_line do |line|
         puts "Win 7 points, the current score is #{score}"
     end
     if line[0] == "C" && line[2] == "Z"
-        score += 3
-        puts "Draw 3 points, the current score is #{score}"
+        score += 6
+        puts "Draw 6 points, the current score is #{score}"
     end
     if line[0] == "C" && line[2] == "Y"
         score += 2
